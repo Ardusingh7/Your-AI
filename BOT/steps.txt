@@ -1,0 +1,12 @@
+How to configure...
+
+Unzip the folder, go to chrome://extensions, enable developer mode, click on load unpacked and select the unzipped folder. Croc AI should now show up in your extensions.
+
+This extension can currently work on the latest Chrome Dev and Chrome Canary builds. It makes use of on-device, in-browser AI (Gemini Nano). For ensuring all features work, follow these steps:
+
+go to chrome://flags/#optimization-guide-on-device-model and set it to "Enabled BypassPerfRequirement"
+go to chrome://flags/#text-safety-classifier and disable it.
+enable chrome://flags/#prompt-api-for-gemini-nano, chrome://flags/#summarization-api-for-gemini-nano, chrome://flags/#rewriter-api-for-gemini-nano, chrome://flags/#writer-api-for-gemini-nano, chrome://flags/#language-detection-api
+go to chrome://flags/#translation-api and set it to "Enabled without language pack limit"
+go to chrome://on-device-translation-internals/ and download all language packs you require. Navigate to chrome://components and look for TranslateKit components to monitor progress if you want.
+To enable voice input, go to chrome://extensions, click on "Details" under Croc AI, go to site settings, allow Microphone
