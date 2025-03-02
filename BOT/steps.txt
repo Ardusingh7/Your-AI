@@ -1,6 +1,6 @@
 How to configure...
 
-Unzip the "dist" folder, go to chrome://extensions, enable developer mode, click on load unpacked, and select the unzipped folder. Your AI should now appear in your extensions.
+Unzip the "main" folder, go to chrome://extensions, enable developer mode, click on load unpacked, and select the unzipped folder. Your AI should now appear in your extensions.
 
 This extension works on the latest Chrome Dev and Chrome Canary builds. It makes use of on-device, in-browser AI (Gemini Nano). For ensuring all features work, follow these steps:
 
