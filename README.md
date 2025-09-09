@@ -1,31 +1,44 @@
-# 🤖 Your-AI
+````markdown
+# Your-AI
 
-**Your-AI** is a smart, AI-powered browser assistant that transforms Chrome into your personal intelligent companion. Built as a **sidebar-by-default Chrome extension**, it uses **in-browser Gemini Nano** to understand and perform natural language commands — either typed or spoken — directly from a built-in input bar.
+Your-AI is a browser-based AI assistant built on **Gemini Nano**, Google’s lightweight on-device large language model. It runs entirely within Chrome, ensuring **privacy, speed, and offline capability** — no external API calls required.
 
----
+## Features
 
-## 🚀 Features
+- 💡 **On-device AI** – Powered by Gemini Nano, runs locally in Chrome.  
+- 🔒 **Privacy-first** – No data leaves your device.  
+- ⚡ **Fast response** – Eliminates API latency by using local inference.  
+- 🌐 **Browser-native** – Works directly inside Chrome with no external setup.  
+- 🛠️ **Customizable** – Can be extended with user-defined prompts or workflows.  
 
-- 🧠 In-browser Gemini Nano AI for fast, local inference
-- 🎙️ Voice and text input support in natural language
-- ⚡ Instant explanations, summaries, or actions based on your request
-- 📚 Works seamlessly on any webpage as a sidebar
-- 🔐 No external calls — privacy-respecting by default
-- 💬 Conversational interaction experience inside Chrome
+## Tech Stack
 
----
+- **Frontend**: HTML, CSS, JavaScript  
+- **AI Engine**: Gemini Nano (on-device LLM in Chrome)  
 
-## 🛠️ Tech Stack
+## Installation
 
-- **Frontend**: HTML, CSS, JavaScript
-- **AI Engine**: Gemini Nano (on-device)
-- **Browser Integration**: Chrome Extension with persistent sidebar
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ardusingh7/Your-AI.git
+   cd Your-AI
+````
 
----
+2. Open the project in Chrome (with Gemini Nano enabled).
+3. Start interacting with Your-AI directly in your browser.
 
-## 🎯 Use Case
+## Project Structure
 
-- Summarize articles or documents on-the-go  
-- Get definitions, translations, or explanations instantly  
-- Use voice to ask AI questions while reading online  
-- Browse smarter without switching tabs
+```
+Your-AI/
+│── index.html       # Main interface
+│── style.css        # Styling
+│── script.js        # Core logic and AI integration
+│── README.md        # Project documentation
+```
+
+## Contributing
+
+Contributions are welcome! Please fork the repo and create a pull request with improvements or new features.
+```
+```
