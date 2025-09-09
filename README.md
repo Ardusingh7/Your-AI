@@ -1,4 +1,3 @@
-````markdown
 # Your-AI
 
 Your-AI is a browser-based AI assistant built on **Gemini Nano**, Google’s lightweight on-device large language model. It runs entirely within Chrome, ensuring **privacy, speed, and offline capability** — no external API calls required.
@@ -35,10 +34,4 @@ Your-AI/
 │── style.css        # Styling
 │── script.js        # Core logic and AI integration
 │── README.md        # Project documentation
-```
-
-## Contributing
-
-Contributions are welcome! Please fork the repo and create a pull request with improvements or new features.
-```
 ```
